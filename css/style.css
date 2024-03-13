@@ -21,6 +21,15 @@ img {
   max-width: 100%;
 }
 
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  padding-left: 0px;
+}
+
+ul > li {
+  margin: 5px;
+}
 /* *COMMON */
 
 /* HEADER */
@@ -60,6 +69,7 @@ main {
 
 .ms_copyright_section {
   background-color: var(--header-bg);
+  font-size: 12px;
 }
 
 /* *UTILITIES */
@@ -117,8 +127,24 @@ main {
   font-size: clamp(1em, calc(5vw + 0.8rem), 2em);
 }
 
-.ms_green_btn{
+.ms_green_btn {
   background-color: var(--hero-about-bg);
+}
+
+.ms_green_link {
+  color: var(--hero-about-bg);
+  text-decoration: none;
+}
+
+
+.ms_circle {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid white;
 }
 
 @media screen and (min-width: 768px) {
