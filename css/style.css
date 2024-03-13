@@ -99,8 +99,10 @@ main {
   align-self: center;
 }
 
-.ms_line.border-dark {
+.ms_line_short {
   width: calc(100% / 3 - 20%);
+  border: 2px solid white;
+  align-self: center;
 }
 
 .ms_star {
