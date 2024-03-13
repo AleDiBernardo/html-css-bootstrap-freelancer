@@ -2,7 +2,7 @@
 :root {
   --header-footer-bg: #2c3e50;
   --hero-about-bg: #1abc9c;
-  --portfolio-bg: #ffffff;
+  --portfolio-contact-bg: #ffffff;
   --bordeaux: #ba4b63;
   --aqua: #1ea4b6;
   --black: #140f0f;
@@ -26,7 +26,6 @@ header {
 
 /* MAIN */
 main {
-  height: 100vh;
   /* debug */
   background-color: red;
 }
@@ -36,7 +35,19 @@ main {
 }
 
 .ms_portfolio_section {
-    background-color: var(--portfolio-bg);
+  background-color: var(--portfolio-contact-bg);
+}
+
+.ms_about_section {
+  background-color: var(--hero-about-bg);
+}
+
+.ms_contact_section {
+    background-color: var(--portfolio-contact-bg);
+}
+
+.ms_footer_section {
+  background-color: var(--header-footer-bg);
 }
 
 /* *UTILITIES */
