@@ -50,6 +50,10 @@ main {
   background-color: var(--portfolio-contact-bg);
 }
 
+.ms_contact_section .form-group > input {
+  margin: 15px 0;
+}
+
 .ms_footer_section {
   background-color: var(--info-bg);
 }
@@ -105,8 +109,16 @@ main {
   align-self: center;
 }
 
+.ms_noborder {
+  border: none;
+}
+
 .ms_star {
   font-size: clamp(1em, calc(5vw + 0.8rem), 2em);
+}
+
+.ms_green_btn{
+  background-color: var(--hero-about-bg);
 }
 
 @media screen and (min-width: 768px) {
