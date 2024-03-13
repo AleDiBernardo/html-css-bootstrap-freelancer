@@ -1,3 +1,59 @@
+/* *CUSTOM PROPERTIES */
+:root {
+  --header-footer-bg: #2c3e50;
+  --hero-about-bg: #1abc9c;
+  --portfolio-bg: #ffffff;
+  --bordeaux: #ba4b63;
+  --aqua: #1ea4b6;
+  --black: #140f0f;
+  --ocean: #1c83c1;
+  --blue: #0e38b5;
+  --mud: #ccb2a3;
+  --info-bg: #3a546d;
+}
+
+/* *IMG RESET */
 img {
-    max-width: 100%;
+  max-width: 100%;
+}
+
+/* *COMMON */
+
+/* HEADER */
+header {
+  background-color: var(--header-footer-bg);
+}
+
+/* MAIN */
+main {
+  height: 100vh;
+  /* debug */
+  background-color: red;
+}
+
+.ms_hero_section {
+  background-color: var(--hero-about-bg);
+}
+
+.ms_portfolio_section {
+    background-color: var(--portfolio-bg);
+}
+
+/* *UTILITIES */
+
+.ms_width_100 {
+  width: 100%;
+}
+
+.ms_height_80 {
+  height: 80px;
+}
+
+.ms_min_height_400 {
+  min-height: 400px;
+}
+
+.ms_container {
+  max-width: 1170px;
+  margin: 0 auto;
 }
