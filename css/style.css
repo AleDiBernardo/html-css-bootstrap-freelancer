@@ -86,7 +86,7 @@ main {
 }
 
 .ms_title_medium {
-  font-size: clamp(1em, calc(5vw + 0.8rem), 3em);
+  font-size: clamp(1em, calc(5vw + 0.6rem), 3em);
 }
 
 .ms_subtitle {
