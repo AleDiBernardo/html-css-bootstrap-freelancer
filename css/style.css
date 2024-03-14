@@ -27,8 +27,8 @@ ul > li {
 /* *COMMON */
 
 /* HEADER */
-header {
-  background-color: var(--ms_header-bg);
+.ms_nav {
+  background-color: var(--ms_header-bg) !important;
 }
 
 /* MAIN */
