@@ -140,6 +140,14 @@ main {
   border: 1px solid white;
 }
 
+.btn-success {
+  background-color: var(--ms_hero-about-bg) !important;
+}
+
+.btn-outline-light:hover i {
+  color: black;
+}
+
 @media screen and (min-width: 768px) {
   .ms_img_ctn > img {
     max-width: 30%;
