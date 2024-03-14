@@ -1,15 +1,9 @@
 /* *CUSTOM PROPERTIES */
 :root {
-  --header-bg: #2c3e50;
-  --hero-about-bg: #1abc9c;
-  --portfolio-contact-bg: #ffffff;
-  --bordeaux: #ba4b63;
-  --aqua: #1ea4b6;
-  --black: #140f0f;
-  --ocean: #1c83c1;
-  --blue: #0e38b5;
-  --mud: #ccb2a3;
-  --info-bg: #3a546d;
+  --ms_header-bg: #2c3e50;
+  --ms_hero-about-bg: #1abc9c;
+  --ms_portfolio-contact-bg: #ffffff;
+  --ms_info-bg: #3a546d;
 }
 
 * {
@@ -34,7 +28,7 @@ ul > li {
 
 /* HEADER */
 header {
-  background-color: var(--header-bg);
+  background-color: var(--ms_header-bg);
 }
 
 /* MAIN */
@@ -44,19 +38,19 @@ main {
 }
 
 .ms_hero_section {
-  background-color: var(--hero-about-bg);
+  background-color: var(--ms_hero-about-bg);
 }
 
 .ms_portfolio_section {
-  background-color: var(--portfolio-contact-bg);
+  background-color: var(--ms_portfolio-contact-bg);
 }
 
 .ms_about_section {
-  background-color: var(--hero-about-bg);
+  background-color: var(--ms_hero-about-bg);
 }
 
 .ms_contact_section {
-  background-color: var(--portfolio-contact-bg);
+  background-color: var(--ms_portfolio-contact-bg);
 }
 
 .ms_contact_section .form-group > input {
@@ -64,11 +58,11 @@ main {
 }
 
 .ms_footer_section {
-  background-color: var(--info-bg);
+  background-color: var(--ms_info-bg);
 }
 
 .ms_copyright_section {
-  background-color: var(--header-bg);
+  background-color: var(--ms_header-bg);
   font-size: 12px;
 }
 
@@ -135,7 +129,6 @@ main {
   color: var(--hero-about-bg);
   text-decoration: none;
 }
-
 
 .ms_circle {
   width: 40px;
