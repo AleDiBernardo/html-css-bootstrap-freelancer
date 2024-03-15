@@ -6,7 +6,15 @@
   --ms_info-bg: #3a546d;
 }
 
-* {
+body {
+  color: white;
+}
+
+form {
+  color: gray;
+}
+
+a {
   color: white;
 }
 
