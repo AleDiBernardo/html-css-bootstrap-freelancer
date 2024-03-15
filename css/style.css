@@ -28,7 +28,7 @@ ul > li {
 
 /* HEADER */
 .ms_nav {
-  background-color: var(--ms_header-bg) !important;
+  background-color: var(--ms_header-bg);
 }
 
 /* MAIN */
@@ -39,6 +39,7 @@ main {
 
 .ms_hero_section {
   background-color: var(--ms_hero-about-bg);
+  padding: 30px 0;
 }
 
 .ms_portfolio_section {
@@ -65,7 +66,6 @@ main {
   background-color: var(--ms_header-bg);
   font-size: 12px;
 }
-
 
 /* *UTILITIES */
 
@@ -152,5 +152,17 @@ main {
 @media screen and (min-width: 768px) {
   .ms_img_ctn > img {
     max-width: 30%;
+  }
+
+  .ms_nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .ms_hero_section {
+    padding-top: 100px;
+    padding-bottom: 30px;
   }
 }
